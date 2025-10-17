@@ -1,4 +1,4 @@
-name: tf-gha-deploy-infra.yml
+name: tf-gha-deploy-infra.yml 
  
 on: 
   workflow_dispatch:
@@ -42,4 +42,5 @@ jobs:
     - id: deploy-aml-workspace
       name: deploy-aml-workspace
       run: echo "OK"
+
 
